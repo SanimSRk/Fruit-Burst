@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
-<body class="max-w-[1440px] mx-auto">
+<body class="max-[1440px]: w-full">
 
-  <header class="container  mx-auto mt-10 ">
-    <nav class="lg:bg-[#F85559] lg:rounded-full py-4 lg:px-12">
+  <header class=" w-[85%] mx-auto mt-10 ">
+    <nav class=" lg:bg-[#F85559] lg:rounded-full py-4 lg:px-12 ">
       <div class="navbar justify-around  lg:justify-between">
         <div class=" ">
           <div class="flex items-center  lg:hidden">
@@ -59,6 +59,50 @@
         </div>
       </div>
     </nav>
+
+    <div class="mt-5">
+      <div class="carousel ">
+        <div id="slide1" class="carousel-item relative  w-full">
+          <div class="absolute left-[10%] text-center md:py-[10%] lg:py-[10%] right-[10%] ">
+            <h2 class="text-2xl lg:text-7xl md:text-4xl text-white">Exotic tastes at your doorstep</h2>
+            <p class="text-white  md:mt-6 lg:mt-6 text-sm lg:text-xl">We supply highly quality organic products</p>
+            <button class="btn bg-[#F85559] border-none text-white lg:mt-7 md:mt-7 mt-1">Shop Now</button>
+          </div>
+          <img src="image/banner1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+
+          </div>
+        </div>
+
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="image/banner2.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="image/banner3 (1).png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="image/banner4.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
   </header>
   <main>
 
